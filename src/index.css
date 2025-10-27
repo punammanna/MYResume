@@ -1,0 +1,16 @@
+
+@import "tailwindcss";
+
+:root {
+    /* font-family: "Poppins", sans-serif; */
+  
+    /* Custom color variables */
+    --bg-color: #2c2523; /* darkBrown from your Tailwind config */
+    --text-color: #f1e1d9; /* white from your config */
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
