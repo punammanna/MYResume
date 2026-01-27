@@ -1,16 +1,19 @@
-import Navbar from "./Components/Navbar"
-import { Herosection } from "./Components/Herosection"
-import SkillsSection from "./Components/SkillsSection"
+import Navbar from "./Components/Navbar";
+import HeroSection from "./Components/Herosection";
+import ProjectsSection from "./Components/ProjectsSection";
+import SkillsSection from "./Components/SkillsSection";
+import Contact from "./Components/Contact";   
 
 function App() {
-
   return (
     <>
-    <Navbar/>
-    <Herosection/>
-    <SkillsSection/>
+      <Navbar />
+      <HeroSection />
+      <SkillsSection />
+      <ProjectsSection />
+      <Contact />   
     </>
-  )
+  );
 }
 
-export default App
+export default App;
