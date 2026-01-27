@@ -34,7 +34,7 @@ export default function HeroSection() {
           <div className="flex flex-wrap gap-4 mb-10">
             <a
               href="/resume.pdf"
-              download
+              download="Punam_Resume.pdf" // <-- custom filename
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 rounded-full font-bold text-white text-lg
