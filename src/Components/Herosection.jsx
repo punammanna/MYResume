@@ -10,7 +10,6 @@ export default function HeroSection() {
       className="min-h-screen bg-card text-white flex items-center relative overflow-hidden"
     >
       <div className="container mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-
         {/* LEFT CONTENT */}
         <motion.div
           initial={{ opacity: 0, y: 60, scale: 0.95 }}
@@ -34,7 +33,8 @@ export default function HeroSection() {
           {/* BUTTONS */}
           <div className="flex flex-wrap gap-4 mb-10">
             <a
-              href="/Punam_Manna_Resume.pdf" // Replace with your actual resume link
+              href="/resume.pdf"
+              download
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 rounded-full font-bold text-white text-lg
@@ -63,7 +63,7 @@ export default function HeroSection() {
           {/* SOCIAL ICONS */}
           <div className="flex gap-6 items-center">
             <a
-              href="https://www.instagram.com/punammanna" // Your Instagram
+              href="https://www.instagram.com/punammanna"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-white/5 backdrop-blur
@@ -75,7 +75,7 @@ export default function HeroSection() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/punam-manna-b11a59328/" // Your LinkedIn
+              href="https://www.linkedin.com/in/punam-manna-b11a59328/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-white/5 backdrop-blur
@@ -87,7 +87,7 @@ export default function HeroSection() {
             </a>
 
             <a
-              href="https://github.com/punammanna" // Your GitHub
+              href="https://github.com/punammanna"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-white/5 backdrop-blur
@@ -108,12 +108,10 @@ export default function HeroSection() {
           viewport={{ once: true, amount: 0.4 }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
         >
-          {/* GLOW BEHIND IMAGE */}
           <div className="absolute inset-0 flex justify-center items-center z-0">
             <div className="w-96 h-96 rounded-full bg-cyan-400/30 blur-3xl animate-pulseGlow"></div>
           </div>
 
-          {/* FLOATING IMAGE */}
           <div
             className="w-96 h-96 rounded-full p-1 
             bg-gradient-to-r from-cyan-400 to-orange-500 
@@ -148,7 +146,6 @@ export default function HeroSection() {
         <MessageCircle size={24} />
       </motion.button>
 
-      {/* FLOATING & GLOW ANIMATIONS */}
       <style>
         {`
           @keyframes smoothFloat {
