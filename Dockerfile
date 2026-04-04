@@ -23,4 +23,4 @@ RUN npm install -g serve
 EXPOSE 8000
 
 # Start the server to serve the build folder
-CMD ["serve", "-s", "dist", "-l", "5000"]
+CMD ["serve", "-s", "dist", "-l", "8000"]
