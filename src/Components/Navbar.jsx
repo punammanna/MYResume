@@ -11,6 +11,7 @@ const Navbar = () => {
 
   const links = [
     { link: "About Me", section: "about" },
+    { link: "Internship", section: "internship" }, // ✅ Added Internship
     { link: "Skills", section: "skills" },
     { link: "Projects", section: "projects" },
     { link: "Contact", section: "contact" },
@@ -22,14 +23,13 @@ const Navbar = () => {
 
         {/* Logo / Name */}
         <div>
-  <h1 className="text-cyan-400 mb-4 font-semibold text-2xl hidden sm:block">
-    Punam Manna
-  </h1>
-  <h1 className="text-white font-extrabold text-3xl sm:hidden">
-    PM
-  </h1>
-</div>
-
+          <h1 className="text-cyan-400 mb-4 font-semibold text-2xl hidden sm:block">
+            Punam Manna Devops Engineer
+          </h1>
+          <h1 className="text-white font-extrabold text-3xl sm:hidden">
+            PM
+          </h1>
+        </div>
 
         {/* Desktop Links */}
         <div className="hidden lg:block">

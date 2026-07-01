@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 const SkillsSection = () => {
   const skills = [
     { name: "Docker", level: "Advanced" },
+    { name: "Terraform", level: "Advanced" },
     { name: "Jenkins", level: "Advanced" },
     { name: "Kubernetes", level: "Beginner" },
     { name: "AWS", level: "Moderate" },
     { name: "GitHub", level: "Moderate" },
     { name: "Python", level: "Advanced" },
     { name: "React JS", level: "Advanced" },
-    { name: "JavaScript", level: "Advanced" },
     { name: "Tailwind", level: "Advanced" },
   ];
 
