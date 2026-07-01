@@ -9,7 +9,7 @@ const SkillsSection = () => {
     { name: "AWS", level: "Moderate" },
     { name: "GitHub", level: "Moderate" },
     { name: "Python", level: "Advanced" },
-    { name: "React JS", level: "Advanced" },
+    { name: "k8s", level: "Advanced" },
     { name: "JavaScript", level: "Advanced" },
     { name: "Tailwind", level: "Advanced" },
   ];
