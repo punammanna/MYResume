@@ -23,7 +23,7 @@ const Navbar = () => {
         {/* Logo / Name */}
         <div>
   <h1 className="text-cyan-400 mb-4 font-semibold text-2xl hidden sm:block">
-    Punam Manna
+    Punam Manna devops Engineer 
   </h1>
   <h1 className="text-white font-extrabold text-3xl sm:hidden">
     PM
